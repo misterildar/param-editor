@@ -1,0 +1,18 @@
+.section {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 50vmin;
+  height: 50vmin;
+  transform: translate(-50%, -50%);
+  gap: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.field {
+  max-width: 300px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
